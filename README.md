@@ -22,7 +22,7 @@ build.gradle
 implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml'
 ```
 ```
-gradle --refresh-dependencies <task>
+gradle --refresh-dependencies
 ```
 
 
