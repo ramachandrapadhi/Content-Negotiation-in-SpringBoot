@@ -19,7 +19,7 @@ mvn update
 build.gradle
 -------------
 ```
-implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml' <br/>
+implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml'
 ```
 ```
 gradle --refresh-dependencies <task>
