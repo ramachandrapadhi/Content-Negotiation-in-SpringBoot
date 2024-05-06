@@ -22,9 +22,12 @@ check the configuration
 
 Test url
 ----------
-need to pass request param like (?mediaType=xml/json) in URL /n
+need to pass request param like (?mediaType=xml/json) in URL
+-------
 URL : localhost:8080/api/user/getallUser  (The default configuration is JSON, So it will return JSON response)
+-----
 URL : localhost:8080/api/user/getallUser?mediaType=xml  (this will return XML response)
+-----
 URL : localhost:8080/api/user/getallUser?mediaType=json (this will return JSON response)
 
 
