@@ -1,22 +1,33 @@
+
 # Content-Negotiation-in-SpringBoot
 
 Add below dependency
 
 pom.xml
 --------
-<dependency>
-    <groupId>com.fasterxml.jackson.dataformat</groupId>
-    <artifactId>jackson-dataformat-xml</artifactId>
-</dependency>
+```
+  <dependency>
+  <groupId>com.fasterxml.jackson.dataformat</groupId>
+  <artifactId>jackson-dataformat-xml</artifactId>
+  </dependency>
+```
+```
+mvn update
+```
+
 
 build.gradle
 -------------
-implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml' <br/>
+```
+implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml'
+```
+```
+gradle --refresh-dependencies
+```
 
-refresh the project <br/>
 
-the default configuration for spring boot is JSON   <br/>
-but need do change configutaion <br/>
+the default configuration for spring boot is JSON,
+but need do change configutaion
 inside package com.learningtech.config.ContentConfig <br/>
 check the configuration <br/>
 
@@ -29,8 +40,4 @@ URL : localhost:8080/api/user/getallUser  (The default configuration is JSON, So
 URL : localhost:8080/api/user/getallUser?mediaType=xml  (this will return XML response)<br/>
 
 URL : localhost:8080/api/user/getallUser?mediaType=json (this will return JSON response)<br/>
-
-
-
-
 
