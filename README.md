@@ -4,11 +4,12 @@ Add below dependency
 
 pom.xml
 --------
+<pre>
 <dependency>
-    <groupId>com.fasterxml.jackson.dataformat</groupId>
+    <groupId>com.fasterxml.jackson.dataformat</groupId> 
     <artifactId>jackson-dataformat-xml</artifactId>
-</dependency>
-
+</dependency> 
+</pre>
 build.gradle
 -------------
 implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml' <br/>
